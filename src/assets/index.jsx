@@ -23,6 +23,10 @@ export { default as diu } from "./diu.png";
 export { default as ppimsc } from "./ppimsc.png";
 export { default as ulab } from "./ulab.png";
 
+//Company images export
+export { default as ascend } from "./ascend.png";
+export { default as raven } from "./raven.png";
+
 //Icons export
 export { default as figma } from "./icons/figma.svg";
 export { default as sketch } from "./icons/sketch.svg";

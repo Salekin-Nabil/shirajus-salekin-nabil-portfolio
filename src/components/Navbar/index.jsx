@@ -46,6 +46,14 @@ const Navbar = () => {
               {list.name}
             </Link>
           ))}
+          <a
+              href="https://drive.google.com/file/d/1TtiIYl8kCILB60CdgS1NBEG9jQTZpl2Q/view?usp=drive_link"
+              target="_blank"
+              className="tab"
+              activeClass="btn__shine"
+            >
+              My Resume
+            </a>
         </div>
       </aside>
       <div className="flex__center buttons__wrapper">

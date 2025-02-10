@@ -1,0 +1,91 @@
+.exp__card {
+  position: relative;
+  padding: 30px 40px;
+  cursor: pointer;
+  clip-path: var(--polygon);
+  transition: var(--transition);
+}
+.exp__card:hover {
+  background: var(--color-ui-2);
+}
+.exp__card .title {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
+.exp__card .location {
+  font-size: 7px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.exp__card .role {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.3rem;
+  margin-top: 2rem;
+}
+.exp__card .date {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.exp__card .responsibility {
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+.exp__card .exp__content {
+  margin-top: 1rem;
+}
+.exp__card .exp__details {
+  gap: 1rem;
+}
+.exp__card .exp__logo {
+  width: 25px;
+  height: 25px;
+}
+.exp__card .exp__logo img {
+  object-fit: contain;
+}
+/* .exp_card .avatar {
+  width: 10rem;
+  height: 10rem;
+  overflow: hidden;
+  border-radius: var(--border-radius-3);
+  margin: 0 auto 1rem;
+  margin-top: 20px;
+  box-shadow: 5px 10px 20px rgba(1, 1, 1, 0.329);
+  cursor: pointer;
+  background-color: aliceblue;
+  padding-top: 1px;
+} */
+.exp__card .exp__card-top {
+  background: var(--color-ui-2);
+  border-radius: 7px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  clip-path: var(--polygon);
+}
+.exp__card .picture {
+  height: 300px;
+  background: var(--color-ui-2);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.exp__card .picture img {
+  transition: var(--transition);
+}
+.exp__card .picture:hover img {
+  transform: scale(1.1);
+}
+/* Responsiveness */
+@media (max-width: 350px) {
+  .exp__card .exp__details .exp__name {
+    font-size: 12px;
+  }
+  .exp__card .exp__details .exp__level {
+    font-size: 10px;
+  }
+}

@@ -42,7 +42,9 @@ import {
   ppimsc,
   ulab,
   diu,
-  sfbu
+  sfbu,
+  raven,
+  ascend
 } from "./assets";
 
 export const menu = [
@@ -347,6 +349,44 @@ export const skills = [
         skill: "Email JS",
         level: "Experienced",
         logo: emailjs,
+      },
+    ],
+  },
+];
+export const experience = [
+  {
+    company: "Ascend Technology Inc.",
+    logo: ascend,
+    role: "Software Developer",
+    date: "Jan 2024 - Apr 2024",
+    location: "1879 Lundy Ave, San Jose, CA 95131, USA",
+    data: [
+      {
+        responsibility: "Developed web applications with React JS, integrated APIs, and optimized databases for performance and reliability.",
+      },
+      {
+        responsibility: "Automated firmware testing and maintenance with Python, Selenium, and Postman, boosting efficiency by 25%.",
+      },
+      {
+        responsibility: "Deployed cloud analytics, optimized diagnostics with Python, and used Docker for secure testing.",
+      },
+    ],
+  },
+  {
+    company: "Ravenspirit Media Pvt. Ltd.",
+    logo: raven,
+    role: "Blockchain Developer",
+    date: "Oct 2022 - Feb 2023",
+    location: "301 KR Tower, Rd-12 Banjara Hills, Hyderabad, India",
+    data: [
+      {
+        responsibility: "Developed a scalable blockchain with Polygon Edge, native token, and PoS consensus, ensuring scalability and security.",
+      },
+      {
+        responsibility: "Built a block explorer using Blockscout and launched NFTs through a responsive web application.",
+      },
+      {
+        responsibility: "Created a Uniswap-inspired decentralized crypto-swapping platform, simplifying digital asset exchanges.",
       },
     ],
   },
