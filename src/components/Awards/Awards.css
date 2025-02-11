@@ -1,0 +1,65 @@
+#awards .education {
+  text-align: center;
+  padding: 60px 40px;
+  border-radius: var(--border-radius-3);
+  clip-path: var(--polygon);
+}
+#awards .avatar {
+  width: 10rem;
+  height: 10rem;
+  overflow: hidden;
+  border-radius: var(--border-radius-3);
+  margin: 0 auto 1rem;
+  margin-top: 20px;
+  box-shadow: 5px 10px 20px rgba(1, 1, 1, 0.329);
+  cursor: pointer;
+  background-color: aliceblue;
+  padding-top: 1px;
+}
+#awards .award__card-top {
+  background: var(--color-ui-2);
+  border-radius: 7px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  clip-path: var(--polygon);
+}
+#awards .picture {
+  height: 300px;
+  background: var(--color-ui-2);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+#awards .picture img {
+  transition: var(--transition);
+}
+#awards .picture:hover img {
+  transform: scale(1.1);
+}
+#awards .review {
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+}
+/* #awards .review:hover {
+  transform: scale(1.5);
+  transition: var(--transition);
+} */
+#awards .role {
+  font-size: 12px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+#awards .stack {
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  background: rgba(var(--color-primary-rgb), 0.3);
+  box-shadow: var(--card-primary-shadow);
+  clip-path: var(--polygon);
+  transition: var(--transition);
+  cursor: pointer;
+}
+#awards .stack:hover {
+  transform: scale(2);
+}

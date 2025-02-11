@@ -23,6 +23,13 @@ export { default as diu } from "./diu.png";
 export { default as ppimsc } from "./ppimsc.png";
 export { default as ulab } from "./ulab.png";
 
+//Achievements images export
+export { default as bcolbd } from "./bcolbd.jpg";
+export { default as ibcol } from "./ibcol.jpg";
+export { default as udemy } from "./udemy.jpg";
+export { default as phero } from "./phero.jpg";
+export { default as mern } from "./mern.png";
+
 //Company images export
 export { default as ascend } from "./ascend.png";
 export { default as raven } from "./raven.png";

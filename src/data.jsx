@@ -44,7 +44,12 @@ import {
   diu,
   sfbu,
   raven,
-  ascend
+  ascend,
+  bcolbd,
+  ibcol,
+  udemy,
+  phero,
+  mern
 } from "./assets";
 
 export const menu = [
@@ -472,28 +477,65 @@ export const educations = [
     avatar: sfbu,
     name: "San Francisco Bay University, CA, USA",
     role: "Master's in Computer Science",
-    review: ` CGPA : 3.83/4.00`,
+    result: ` CGPA : 3.83/4.00`,
     certificate: "/"
   },
   {
     avatar: diu,
     name: "Daffodil International university, Dahak, Bangladesh",
     role: "Bachelor's in Computer Science and Engineering",
-    review: ` CGPA : 3.93/4.00`,
+    result: ` CGPA : 3.93/4.00`,
     certificate: "https://drive.google.com/file/d/1Uq49j2OhK8ct_pmfA7nW91gUXgYyxe-6/view?usp=drive_link"
   },
   {
     avatar: ppimsc,
     name: "President Prof. Dr. Iajuddin Ahmed Residential Model School & College",
     role: "Higher Secondary Certificate - Science",
-    review: ` GPA : 4.83/5.00`,
+    result: ` GPA : 4.83/5.00`,
     certificate: "https://drive.google.com/file/d/1uTyfrqtyp7sL_KAEaFk9HEkZXNfwQV4D/view?usp=sharing"
   },
   {
     avatar: ulab,
     name: "University Laboratory School & College",
     role: "Secondary School Certificate - Science",
-    review: ` GPA : 5.00/5.00`,
+    result: ` GPA : 5.00/5.00`,
     certificate: "https://drive.google.com/file/d/18CJ4t-l0gvrE4ini4hzjokVy1sn6bA3z/view?usp=drive_link"
+  },
+];
+export const awards = [
+  {
+    avatar: bcolbd,
+    name: "National Blockchain Olympiad 2021",
+    fact: "Finalist Team",
+    description: ` Spearheaded my team to the finals of the National Blockchain Olympiad 2021.`,
+    certificate: "https://drive.google.com/file/d/1AmLffXzwrozCs1-vroAGrS8lC464W8wE/view?usp=sharing"
+  },
+  {
+    avatar: ibcol,
+    name: "International Blockchain Olympiad 2021",
+    fact: "Merit Award",
+    description: ` Advanced my team to the finals of the International Blockchain Olympiad 2021.`,
+    certificate: "https://drive.google.com/file/d/1zxVF6g2QgrxMewU9OwGj46yCEFH4Y4oY/view?usp=sharing"
+  },
+  {
+    avatar: udemy,
+    name: "Udemy",
+    fact: "Course Completion",
+    description: ` Earned a certificate for outstanding performance in Blockchain Web Development on Udemy.`,
+    certificate: "https://drive.google.com/file/d/1JgvE6HteO2UYvKgQdaTjrRYd2Qe4AXgx/view?usp=sharing"
+  },
+  {
+    avatar: phero,
+    name: "Programming Hero",
+    fact: "Certificate of MERN Stack",
+    description: ` Awarded a certificate for exceptional performance in MERN stack development.`,
+    certificate: "https://drive.google.com/file/d/1uuopvBhUywGtmwR_AyGFoyTaSeUr6t-5/view?usp=share_link"
+  },
+  {
+    avatar: mern,
+    name: "Programming Hero",
+    fact: "Black Belt Web Developer",
+    description: ` Achieved a black belt in MERN stack development from Programming Hero.`,
+    certificate: "https://drive.google.com/file/d/1nEk6dBcKNeJQZUHFbOyJBS4MloGC9wfu/view?usp=share_link"
   },
 ];
