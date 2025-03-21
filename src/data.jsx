@@ -44,7 +44,8 @@ import {
   diu,
   sfbu,
   raven,
-  ascend,
+  fidelity,
+  knowledgegatebd,
   bcolbd,
   ibcol,
   udemy,
@@ -166,7 +167,7 @@ export const projects = [
     image: project3,
     category: "Full Stack Web",
     description: `Wrench Station revolutionizes vehicle repair service management with a streamlined order system, secure payments, and intuitive dashboards for both customers and administrators. Featuring Stripe-powered transactions, real-time service tracking, and an optimized responsive UI built with React, Tailwind CSS, and React Leaflet, the platform ensures a seamless user experience. Developed with React, Node.js, Express, MongoDB, and Firebase, Wrench Station delivers scalability, efficiency, and reliability, transforming how vehicle repairs are scheduled, managed, and completed.`,
-    demoLink: "https://wrench-station.web.app/",
+    demoLink: "/",
     github_client: "https://github.com/Salekin-Nabil/wrench-station-client-side",
     github_server: "https://github.com/Salekin-Nabil/wrench-station-server-side",
     stacks: [
@@ -197,7 +198,7 @@ export const projects = [
     image: project4,
     category: "Full Stack Web",
     description: `Gymniac streamlines gym equipment management with an intuitive order system, real-time tracking, and a responsive UI built with React, Tailwind CSS, and React Leaflet. Designed for efficiency, the platform ensures seamless equipment handling, optimized user experience, and secure transactions. Powered by React, Node.js, Express, MongoDB, and Firebase, Gymniac delivers scalability, reliability, and robust functionality for modern fitness facilities.`,
-    demoLink: "https://gymniac-d9a71.web.app/",
+    demoLink: "/",
     github_client: "https://github.com/Salekin-Nabil/gymniac-client-side",
     github_server: "https://github.com/Salekin-Nabil/gymniac-server-side",
     stacks: [
@@ -259,7 +260,7 @@ export const projects = [
     image: project6,
     category: "Frontend Web",
     description: `Defense on Demand streamlines law consultancy scheduling with an intuitive frontend platform designed for efficiency and ease of use. Featuring a responsive UI built with React, Tailwind CSS, and React Leaflet, it ensures seamless appointment management and an optimized user experience. Powered by React, Tailwind CSS, and Firebase, the platform offers scalability, reliability, and robust functionality for modern legal services.`,
-    demoLink: "https://defense-on-demand.web.app/",
+    demoLink: "/",
     github_client: "https://github.com/Salekin-Nabil/defense-on-demand",
     github_server: "https://github.com/Salekin-Nabil/defense-on-demand",
     stacks: [
@@ -360,20 +361,20 @@ export const skills = [
 ];
 export const experience = [
   {
-    company: "Ascend Technology Inc.",
-    logo: ascend,
-    role: "Software Developer",
-    date: "Jan 2024 - Apr 2024",
-    location: "1879 Lundy Ave, San Jose, CA 95131, USA",
+    company: "Fidelity Investments",
+    logo: fidelity,
+    role: "Blockchain Developer",
+    date: "Feb 2024 - Till Date",
+    location: "4500-A Tassajara Rd, Dublin, CA 94568",
     data: [
       {
-        responsibility: "Developed web applications with React JS, integrated APIs, and optimized databases for performance and reliability.",
+        responsibility: "Designed and implemented a low-latency crypto trading system with Java Zero GC, optimizing order execution and exchange connectivity.",
       },
       {
-        responsibility: "Automated firmware testing and maintenance with Python, Selenium, and Postman, boosting efficiency by 25%.",
+        responsibility: "Developed FIX and WebSocket-based trading APIs, integrating resilient messaging with Aeron, Solace, and 29West for real-time order flow.",
       },
       {
-        responsibility: "Deployed cloud analytics, optimized diagnostics with Python, and used Docker for secure testing.",
+        responsibility: "Engineered a distributed microservices architecture on AWS with Kubernetes and Kafka, ensuring high throughput and fault tolerance.",
       },
     ],
   },
@@ -395,12 +396,30 @@ export const experience = [
       },
     ],
   },
+  {
+    company: "Knowledge Gate IT",
+    logo: knowledgegatebd,
+    role: "Blockchain Developer",
+    date: "July 2021 - Sept 2022",
+    location: "Level 3, Infront of the Statue, Palbari Vaskorzer More, Jessore 7400, Bangladesh",
+    data: [
+      {
+        responsibility: "Developed Ethereum-based DApps with Solidity, integrating Web3.js and Ethers.js for seamless blockchain interactions.",
+      },
+      {
+        responsibility: "Built full-stack blockchain-integrated applications using the MERN stack, with secure authentication via JWT and Metamask.",
+      },
+      {
+        responsibility: "Deployed scalable microservices on AWS with Docker and Kubernetes, optimizing performance with Layer 2 scaling solutions.",
+      },
+    ],
+  },
 ];
 export const contactInfo = [
   {
     name: "Email",
-    value: "salekinnabil@gmail.com",
-    link: "mailto:salekinnabil@gmail.com",
+    value: "nabilshirajus@gmail.com",
+    link: "mailto:nabilshirajus@gmail.com",
     icon: emailicon,
     btnIcon: <MdOutlineEmail />,
     color: "rgb(56,115,205)",
@@ -426,7 +445,7 @@ export const socialHandles = [
   {
     name: "Gmail",
     icon: <BiLogoGmail />,
-    link: "mailto:salekinnabil@gmail.com",
+    link: "mailto:nabilshirajus@gmail.com",
   },
   {
     name: "Github",
@@ -458,12 +477,12 @@ export const testimonials = [
     role: "Associate Head - Daffodil International University, Bangladesh",
     review: ` Shirajus Salekin Nabil showcased exceptional leadership and technical expertise during his blockchain-based final project. His dedication was key to our Q1 journal publication in Elsevier. I am confident he will continue making impactful contributions.`,
   },
-  {
-    avatar: kawser,
-    name: "Mr. Kawser Jamal",
-    role: "Founder & Chairman - Ascend Group of Companies",
-    review: ` Shirajus Salekin Nabil made a significant impact at Ascend Technology Inc., successfully leading a major project alongside our project manager, Fakharul Hassan. His technical expertise and leadership in building scalable websites were invaluable.`,
-  },
+  // {
+  //   avatar: kawser,
+  //   name: "Mr. Kawser Jamal",
+  //   role: "Founder & Chairman - Ascend Group of Companies",
+  //   review: ` Shirajus Salekin Nabil made a significant impact at Ascend Technology Inc., successfully leading a major project alongside our project manager, Fakharul Hassan. His technical expertise and leadership in building scalable websites were invaluable.`,
+  // },
   {
     avatar: jabed,
     name: "Dr. Jabed Morshed",

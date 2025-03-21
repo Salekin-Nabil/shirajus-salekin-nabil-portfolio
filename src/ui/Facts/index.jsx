@@ -9,7 +9,7 @@ const Facts = () => {
   const [clients, setClients] = useState(0);
   useEffect(() => {
     const timeoutId = setTimeout(() => {
-      setExperience(9);
+      setExperience(3);
       setProjects(15);
       setClients(2.5);
     }, 3000);
@@ -23,7 +23,7 @@ const Facts = () => {
           <Odometer value={experience} className="title" />
           <h3 className="title">+</h3>
         </div>
-        <p className="label">Months of Experience</p>
+        <p className="label">Years of Experience</p>
       </div>
 
       <div className="fact__item">

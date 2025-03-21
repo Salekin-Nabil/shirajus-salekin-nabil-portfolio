@@ -20,8 +20,8 @@ const App = () => {
       <Services />
       <Skills />
       <Experience />
-      <Projects />
       <Awards/>
+      <Projects />
       <Testimonials />
       <Contact />
       <Footer />

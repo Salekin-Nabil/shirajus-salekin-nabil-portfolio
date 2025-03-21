@@ -31,8 +31,9 @@ export { default as phero } from "./phero.jpg";
 export { default as mern } from "./mern.png";
 
 //Company images export
-export { default as ascend } from "./ascend.png";
+export { default as fidelity } from "./fidelity.png";
 export { default as raven } from "./raven.png";
+export { default as knowledgegatebd } from "./knowledgegatebd.jpeg";
 
 //Icons export
 export { default as figma } from "./icons/figma.svg";
