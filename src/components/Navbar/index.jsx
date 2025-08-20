@@ -47,7 +47,7 @@ const Navbar = () => {
             </Link>
           ))}
           <a
-              href="https://drive.google.com/file/d/1-ZuTGRq-jns2e2Wtcnc7c0JsyPi1wzTg/view?usp=sharing"
+              href="https://drive.google.com/file/d/1-gAYwRt4UuFGekN8Q52SkNzU7oxcQnc3/view?usp=sharing"
               target="_blank"
               className="tab"
               activeClass="btn__shine"

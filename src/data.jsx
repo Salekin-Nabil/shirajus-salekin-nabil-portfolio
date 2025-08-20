@@ -418,8 +418,8 @@ export const experience = [
 export const contactInfo = [
   {
     name: "Email",
-    value: "nabilshirajus@gmail.com",
-    link: "mailto:nabilshirajus@gmail.com",
+    value: "salekinnabil@gmail.com",
+    link: "mailto:salekinnabil@gmail.com",
     icon: emailicon,
     btnIcon: <MdOutlineEmail />,
     color: "rgb(56,115,205)",
@@ -445,7 +445,7 @@ export const socialHandles = [
   {
     name: "Gmail",
     icon: <BiLogoGmail />,
-    link: "mailto:nabilshirajus@gmail.com",
+    link: "mailto:salekinnabil@gmail.com",
   },
   {
     name: "Github",
